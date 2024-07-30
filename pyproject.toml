@@ -13,6 +13,7 @@ uvicorn = {extras = ["standart"], version = "^0.30.3"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.2"
+black = "^24.4.2"
 
 [build-system]
 requires = ["poetry-core"]
