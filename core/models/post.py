@@ -16,3 +16,9 @@ class Post(UserRelationsMixin, Base):
         default="", # на стороне алхимии
         server_default="", # на стороне бд
     )
+
+    def __str__(self):
+        return f"{self.__class__.__name__}(id={self.id}, title={self.title!r}, user_id={self.user_id})"
+    
+    def __repr__(self):
+        return str(self)
