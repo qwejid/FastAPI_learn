@@ -1,8 +1,8 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+/__pycache__/
 *.py[cod]
 *$py.class
-
+users\__pycache__
 # C extensions
 *.so
 
@@ -166,3 +166,7 @@ media/
 */migrations/*
 !*/migrations/__init__.py
 
+/certs/
+users/__pycache__/crud.cpython-311.pyc
+users/__pycache__/crud.cpython-311.pyc
+users/__pycache__/schemas.cpython-311.pyc
